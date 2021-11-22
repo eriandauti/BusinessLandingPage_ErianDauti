@@ -1,0 +1,71 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    overflow: hidden;
+}
+
+.first-section{
+    background-image: url(../Images/clip.png);
+    position: absolute;
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+
+.header{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+.header__navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.header__navbar a{
+    text-decoration: none;
+    color: lightgray;
+    padding: 0px 20px;
+}
+
+.header__logo{
+    color: #ffffff;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.header__logo i{
+    padding: 0px 5px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__title{
+    display: flex;
+    font-size: 74px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.flex-container{
+    flex-wrap: wrap;
+    width: 60%;
+    padding-left:110px ;
+
+  
+}
