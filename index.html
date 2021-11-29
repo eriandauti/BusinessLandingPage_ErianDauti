@@ -12,37 +12,43 @@
 
 <body>
 
-    <div class="header__wrapper">
-        <div class="header__navbar">
-            <a href="#">Home</a>
-            <a href="#">Product</a>
-            <a href="#">Pricing</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+   
+    <div class="navbar__wrapper">
+        
+
+        <div class="header__wrapper">
+            <nav class="header__navbar">
+                <a href="#">Home</a>
+                <a href="#">Product</a>
+                <a href="#">Pricing</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+
+                 
+            </nav>
+            <div class="navbar__logo">
+                <img  src="assets/images/figma.png" alt="logo">
+            </div>
+            
+            <div class="header__logo">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="hamburger">
+                <span class="line"></span>
+            </div>
         </div>
-        <div class="navbar__logo">
-            <img src="assets/images/figma.png" alt="logo">
-        </div>
-        <div class="header__logo">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin"></i>
-        </div>
-        <div class="hamburger">
-            <span class="line"></span>
-        </div>
+       
     </div>
     <div class="hero-wrapper">
         <div class="hero">
             <p class="title">The best products start with Figma</p>
-            <div class="hero__text">
-                <p>Most calendars are designed for teams.<span id="none">Slate is designed for freelancers</span></p>
-            </div>
-
+                <p class="hero__text">Most calendars are designed for teams.<span id="none">Slate is designed for freelancers</span></p>
             <button class="button--primary">Try For Free</button>
         </div>
     </div>
-
+    <div class="container">
     <div class="features">
         <div class="features__text-wrapper">
             <p class="title">Features</p>
@@ -59,9 +65,9 @@
             <div class="features__card">
                 <img src="assets/images/card1.png" alt="" class="card">
                 <p class="card__title">
-                    OpenType fetures <span id="card__next-line">Variable fonts</span>
+                    OpenType fetures Variable fonts
                 </p>
-                <p class="card__text">
+                <p class="text">
                     Slate helps you see how many more days you need to work to reach your financial goal.
                 </p>
             </div>
@@ -73,17 +79,20 @@
             </div>
             <div class="features__card">
                 <img src="assets/images/card3.png" alt="" class="card">
-                <p class="card__title"> Fastest way to <span id="card__next-line">take action</span> </p>
+                <p class="card__title"> Fastest way to take action </p>
                 <p class="card__text">Slate helps you see how many more days you need to work to reach your
                     financial goal.</p>
             </div>
         </div>
+    </div>
 
+    <div>
         <video class="features__video" controls>
             <source src="assets/images/video.mp4" type="video/mp4">
         </video>
-
     </div>
+    
+
 
 
 
@@ -97,13 +106,7 @@
                 Try For Free
             </button>
         </div>
-
-        <div>
             <img class="organize__image" src="assets/images/screen.png" alt="laptop screen">
-        </div>
-
-
-
     </div>
 
 
@@ -204,65 +207,71 @@
         </div>
         <button class="button--primary">Try For Free</button>
     </div>
-
-    <div class="pricing">
-        <p class="title">Pricing</p>
-        <p class="pricing__text">Most calendars are designed for teams. Slate is designed for freelancers.</p>
-        <div class="card">
-            <div class="pricing__card">
-                <p class="card__title">FREE</p>
-                <p class="card__desc">Organize across all apps by hand</p>
-                <div class="card__price">
-                    0
-                    <p> <strong>$</strong>
-                        <span>per month</span>
-                    </p>
+</div>
+   
+        <div class="pricing-container">
+            <div class="pricing">
+                <p class="title">Pricing</p>
+            <p class="pricing__text">Most calendars are designed for teams. <span id="none">Slate is designed for freelancers.</span> </p>
+            <div class="card">
+                <div class="pricing__card">
+                    <p class="card__title">FREE</p>
+                    <p class="card__desc">Organize across all apps by hand</p>
+                    <div class="card__price">
+                        0
+                        <p> <strong>$</strong>
+                            <span>per month</span>
+                        </p>
+                    </div>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <button class="button--primary">Order Now</button>
                 </div>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <button class="button--primary">Order Now</button>
-            </div>
-            <div class="pricing__card current">
-                <p class="card__title">STANDARD</p>
-                <p class="card__desc">Organize across all apps by hand</p>
-                <div class="card__price">
-                    10
-                    <p> <strong>$</strong>
-                        <span>per month</span>
-                    </p>
+                <div class="pricing__card current">
+                    <p class="card__title">STANDARD</p>
+                    <p class="card__desc">Organize across all apps by hand</p>
+                    <div class="card__price">
+                        10
+                        <p> <strong>$</strong>
+                            <span>per month</span>
+                        </p>
+                    </div>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <button class="button--primary">Order Now</button>
                 </div>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <button class="button--primary">Order Now</button>
-            </div>
-            <div class="pricing__card">
-                <p class="card__title">BUSINESS</p>
-                <p class="card__desc">Organize across all apps by hand</p>
-                <div class="card__price">
-                    99
-                    <p> <strong>$</strong>
-                        <span>per month</span>
-                    </p>
+                <div class="pricing__card">
+                    <p class="card__title">BUSINESS</p>
+                    <p class="card__desc">Organize across all apps by hand</p>
+                    <div class="card__price">
+                        99
+                        <p> <strong>$</strong>
+                            <span>per month</span>
+                        </p>
+                    </div>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <p class="pricing__feature">Pricing Feature</p>
+                    <button class="button--primary">Order Now</button>
                 </div>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <p class="pricing__feature">Pricing Feature</p>
-                <button class="button--primary">Order Now</button>
             </div>
+            </div>
+            
         </div>
-    </div>
+   
+    
 
     <div class="contact">
         <p class="title">Contact Us</p>
-        <p class="contact__text">Most calendars are designed for teams. Slate is designed for freelancers.</p>
+        <p class="contact__text">Most calendars are designed for teams. <span id="none">Slate is designed for freelancers.</span> </p>
                    <div class="social__icons__mobile">
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-facebook-square"></i>
@@ -333,6 +342,7 @@
 
     </div>
 
+
     <div class="footer">
         <div class="footer__wrapper">
 
@@ -379,6 +389,26 @@
         </div>
     </div>
 
+
+    <script>
+        (function() {
+    
+    var hamburger = {
+        navToggle: document.querySelector('.hamburger'),
+        nav: document.querySelector('.header__navbar '),
+    
+      doToggle: function(e) {
+        e.preventDefault();
+        this.navToggle.classList.toggle('expanded');
+        this.nav.classList.toggle('expanded');
+      }
+    };
+    
+    hamburger.navToggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
+    hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
+    
+    }());
+    </script>
 
 </body>
 
